@@ -21,7 +21,6 @@ module.exports = (sequelize, DataTypes) => {
   }
   Transaction.init(
     {
-      dateTime: DataTypes.DATE,
       totalPrice: DataTypes.FLOAT,
     },
     {
